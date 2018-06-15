@@ -13,19 +13,19 @@ spring:
        password: 123456
        driverClassName: com.mysql.jdbc.Driver
        type: com.alibaba.druid.pool.DruidDataSource
-### master Êý¾ÝÔ´ÅäÖÃ
+### master ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½
 #spring.datasource.druid.one.url=jdbc:mysql://120.79.229.252:3306/jta-user?useUnicode=true&characterEncoding=utf8
 #spring.datasource.druid.one.username=root
 #spring.datasource.druid.one.password=123456
 #spring.datasource.druid.one.driverClassName=com.mysql.jdbc.Driver
 #spring.datasource.druid.one.type=com.alibaba.druid.pool.DruidDataSource
 
-## cluster Êý¾ÝÔ´ÅäÖÃ
+## cluster ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½
 #spring.datasource.druid.two.url=jdbc:mysql://120.79.229.252:3306/jta-income?useUnicode=true&characterEncoding=utf8
 #spring.datasource.druid.two.username=root
 #spring.datasource.druid.two.password=123456
 #spring.datasource.druid.two.driverClassName=com.mysql.jdbc.Driver
 #spring.datasource.druid.two.type=com.alibaba.druid.pool.DruidDataSource
-  jta:
-    log-dir: classpath:tx-logs
-    transaction-manager-id: txManager
+#  jta:
+#    log-dir: classpath:tx-logs
+#    transaction-manager-id: txManager

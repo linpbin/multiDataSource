@@ -19,7 +19,8 @@ public class DemoServiceImpl implements DemoService {
     @Autowired
     private IncomeService incomeService;
     @Override
-    @Transactional(transactionManager = "xatx", propagation = Propagation.REQUIRED, rollbackFor = { java.lang.RuntimeException.class })
+//    @Transactional(transactionManager = "xatx", propagation = Propagation.REQUIRED, rollbackFor = { java.lang.RuntimeException.class })
+    @Transactional
     public int inbyUserIncome(String name, Double amount) {
        try {
            User user = new User();
